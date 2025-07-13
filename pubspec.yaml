@@ -1,0 +1,40 @@
+name: instagram_clone
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  cloud_firestore: ^5.4.4
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  firebase_storage: ^12.3.2
+  flutter:
+    sdk: flutter
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.0.9
+  image_picker: ^1.0.4
+  intl: ^0.20.2
+  provider: ^6.1.1
+  uuid: ^4.2.1
+  http: ^1.1.2
+  crypto: ^3.0.3
+  shared_preferences: ^2.2.2
+
+# REMOVED dependency_overrides - this was causing the issue!
+# dependency_overrides:
+#     firebase_auth_web: ^5.8.14
+#     firebase_storage_web: ^3.6.23
+#     js: ^0.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
